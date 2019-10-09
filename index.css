@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#title {
+	font-family:helvetica;
+	font-size:70px;
+	margin-top: 40px;
+	margin-left: 532px;
+	margin-right: 532px;
+	margin-bottom: 0px;
+	color: black;
+
+}
+#body {
+	font-family:helvetica;
+	font-size:30px;
+	margin-top: 40px;
+	margin-left: 532px;
+	margin-right: 532px;
+	margin-bottom: 0px;
+	color: black;
+}
