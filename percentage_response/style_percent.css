@@ -11,7 +11,7 @@ header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoho
 	width: 100%;
 	height: auto;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: violet;
+	background-color: white;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
@@ -38,5 +38,5 @@ header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoho
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: blue;
+	background-color: violet;
 }
