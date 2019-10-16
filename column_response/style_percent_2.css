@@ -61,7 +61,6 @@ header, hgroup, menu, nav, section,  { display: block; }
 	font-family: helvetica;,font-size: 18px; line-height: 22px;
 	text-align: left; color: black;
 	padding: 10px
-
 	max-width: 500px;
 	width: 67%;
 	height: 90%;
@@ -117,7 +116,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	margin-top: 120px;
 	margin-bottom: 20px;
 	background: #B03;
-	}
+	}  
 #infobox {
 	width: 300px;
 	height: 600px;
