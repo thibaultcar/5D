@@ -20,7 +20,7 @@ header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoho
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #0AA;
+	background-color: violet;
 	height: auto;
 	max-width: 500px;
 }
