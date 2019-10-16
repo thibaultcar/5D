@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+max-width: 1600px;  height:100%;
+} /*height for HTML and BODY set the maximum size of a window*/
+
+ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  { display: block; } 
+
+.container{
+	width: 100%;
+	height: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #6F0;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#box1img{
+	width: 80%;
+	height: auto;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0AA;
+	height: auto;
+}
+#imgHold IMG {
+	width: 90%;
+	height: auto;
+}
+#box2infoholder {
+	font-family: georgia;,font-size: 18px; line-height: 22px;
+	font-style: italic; text-align: left; color: #000;
+	width: 80%;
+	max-width: 500px;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F0F;
+}
+#containerID{
+	width: 100%;
+	height: 800px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
+	background-color: #3DC029;
+}
+#leftColumn {
+	width: 60%;
+	height: 90%;
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+	background: #FF0; /*yellow*/
+	}
+#rightColumn {
+	font-family: georgia;,font-size: 18px; line-height: 22px;
+	font-style: italic; text-align: left; color: #000;
+
+	max-width: 500px;
+	width: 37%;
+	height: 90%;
+	margin-top: 1%;
+	margin-right: 1%;
+	float: left;
+	background: #A70; /*brown*/
+}
+/* divs below are not used */
+#containerID2{
+	width: 100%;
+	height: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #DDD;
+}
+#innerGrey {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	float: left;
+	display: block;
+	background: #888; /*med gray*/
+	}
+#Block1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: block;
+	background: #0ff; 
+	}
+#Block2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: block;
+	background: #FF0; 
+	}
+#imgholder {
+	width: 90px;
+	height: 100px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	background: #B03; /*cyan*/
+	}
+#infobox {
+	width: 300px;
+	height: 600px;
+	float: left;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #F00; /*red*/
+	}
