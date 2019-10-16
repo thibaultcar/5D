@@ -11,7 +11,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	width: 100%;
 	height: auto;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: pink;
+	background-color: white;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
@@ -46,7 +46,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	height: 800px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
-	background-color: pink;
+	background-color: white;
 }
 #leftColumn {
 	width: 30%;
@@ -55,11 +55,11 @@ header, hgroup, menu, nav, section,  { display: block; }
 	margin-right: 1%;
 	margin-left: 1%;
 	float: left;
-	background-color: #FF0000; /*yellow*/
+	background-color: white; /*yellow*/
 	}
 #rightColumn {
 	font-family: helvetica;,font-size: 18px; line-height: 22px;
-	text-align: left; color: white;
+	text-align: left; color: black;
 	padding: 10px
 
 	max-width: 500px;
@@ -68,7 +68,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	margin-top: 1%;
 	margin-right: 1%;
 	float: left;
-	background-color: #0000FF;
+	background-color: white;
 }
 /* divs below are not used */
 /*#containerID2{
