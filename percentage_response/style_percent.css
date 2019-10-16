@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, h1, h2, h3, h4, h5, h6, p,img {
+max-width: 1600px;  height:100%;
+} /*height for HTML and BODY set the maximum size of a window*/
+
+ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoholder { display: block; } 
+
+.container{
+	width: 100%;
+	height: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: violet;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#box1img{
+	width: 80%;
+	height: auto;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0AA;
+	height: auto;
+}
+#imgHold IMG {
+	width: 90%;
+	height: auto;
+}
+#box2infoholder {
+	font-family: helvetica;,font-size: 18px;
+	text-align: left; color: #000;
+	width: 76%;
+	max-width: 500px;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: blue;
+}
