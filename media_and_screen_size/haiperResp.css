@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    font-weight: normal;
+    font-style: normal;
+}
+/*html{
+	background-color:black;
+	
+}*/
+
+
+/*@media screen and (max-width: 1200px) 
+{*/
+
+body{
+	width = auto;
+	height= auto;
+	color: black;
+	/*font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';*/
+	/*text-transform: capitalize;*/	
+}
+#container{
+	width: 1200px;
+	height: 1800px;
+	min-height: 800px;
+	min-width: 1280px;
+	background-color: blue;
+	margin-top: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 23px;
+}
+#containerSmall{
+	width: 500px;
+	height: 300px;
+	min-height: 300px;
+	min-width: 500px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0%;
+	background-color: #AFE5FF;
+	padding-top: 35px;
+}
+
+#text{
+	width: 700px;
+	height: 400px;
+	min-width: 700px;
+	min-height: 400px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-radius: 0%;
+	background-color: pink;
+	font-size: 20px;
+	font-family: helvetica;
+}
+#imgHolder{
+	width: 475px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#lastcontainer{
+	width: 700px;
+	height: 200px;
+	min-width: 700px;
+	min-height: 200px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-radius: 0%;
+	background-color: violet;
+	font-size: 20px;
+	font-family: helvetica;
+}
+/*
+}@media screen and (max-width: 960px) 
+{
+#wrap_______________START959{} 
+	
+
+#container{
+	width: 820px;
+	height: 820px;
+	min-width: 760px;
+	min-height: 1600px;
+	background-color: #EDD7FA;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+#containerSmall{
+	width: 600px;
+	height: 600px;
+	min-width: 640px;
+	min-height: 680px;
+	background-color: #83D6FD;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+#text{
+	width: 600px;
+	height: 600px;
+	min-width: 640px;
+	padding: 50px;
+	border-radius: 10%;
+	background-color: #AFE522;
+	font-size: 32px;
+}
+#imgHolder{
+	width: 480px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+}*/
+	
+@media screen and (max-width: 640px) 
+{
+#wrap_______________START640{} 
+#container{
+	width: 640px;
+	height: 900px;
+	min-width: 640px;
+	min-height: 900px;
+	background-color: #CE8DF5;
+	margin-top: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 18px;
+}
+#containerSmall{
+	width: 360px;
+	height: 200px;
+	min-width: 360px;
+	min-height: 200px;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 0%;
+	background-color: black;
+	}
+
+#text{
+	width: 400px;
+	height: 300px;
+	min-width: 400px;
+	min-height: 300px;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 0%;
+	background-color: orange;
+	font-size: 12px;
+}
+#imgHolder{
+	width: 360px;
+	height: auto;
+	}		
+#lastcontainer{
+	width: 400px;
+	height: 150px;
+	min-width: 400px;
+	min-height: 150px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 0%;
+	background-color: red;
+	font-size: 20px;
+	font-family: helvetica;
+}
+}	
+	
+@media screen and (max-width: 420px) 
+{
+#wrap_______________START420{} 
+
+#container{
+	width: 420px;
+	height: 600px;
+	min-height: 420px;
+	min-width: 600px;
+	background-color: #EDD7FA;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+#containerSmall{
+	width: 175px;
+	height: 100px;
+	min-width: 175px;
+	min-height: 100px;
+	margin-top: 10px;
+	border-radius: 0%;
+	background-color: blue;
+	padding-top: 20px;
+}
+
+#text{
+	width: 300px;
+	height: 150px;
+	min-width: 300px;
+	min-height: 150px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 0%;
+	background-color: yellow;
+	font-size: 8px;
+}
+#imgHolder{
+	width: 175px;
+	height: auto;
+	}	
+#lastcontainer{
+	width: 300px;
+	height: 150px;
+	min-width: 300px;
+	min-height: 150px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 0%;
+	background-color: red;
+	font-size: 20px;
+	font-family: helvetica;
+}
+}
