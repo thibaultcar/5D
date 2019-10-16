@@ -11,7 +11,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	width: 100%;
 	height: auto;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: gray;
+	background-color: #808080;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
@@ -46,7 +46,7 @@ header, hgroup, menu, nav, section,  { display: block; }
 	height: 800px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
-	background-color: gray;
+	background-color: #808080;
 }
 #leftColumn {
 	width: 60%;
@@ -58,8 +58,8 @@ header, hgroup, menu, nav, section,  { display: block; }
 	background: blue; /*yellow*/
 	}
 #rightColumn {
-	font-family: georgia;,font-size: 18px; line-height: 22px;
-	font-style: italic; text-align: left; color: #000;
+	font-family: helvetica;,font-size: 18px; line-height: 22px;
+	text-align: left; color: #000;
 
 	max-width: 500px;
 	width: 37%;
