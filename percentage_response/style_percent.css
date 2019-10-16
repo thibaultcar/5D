@@ -23,7 +23,7 @@ header, hgroup, menu, nav, section,  .container, #box1img, #imgHold, #box2infoho
 	background-color: #0AA;
 	height: auto;
 }
-#imgHold{
+#imgHold IMG {
 	width: 40%;
 	height: auto;
 }
