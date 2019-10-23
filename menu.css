@@ -1,0 +1,310 @@
+ /* CORE STYLES */
+
+body {
+	/*max-width: 1366px;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;*/
+	margin: 0;
+	padding: 0;
+}
+
+/* unvisited link */
+a:link {
+		color: #da7b93;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #da7b93;
+}
+
+/* mouse over link */
+a:hover {
+  color: #54A0A2;
+}
+
+/* selected link */
+a:active {
+  color: #54A0A2;
+}
+ul.sqr {
+		/*list-style-type: square;*/
+		font-weight: lighter;
+	text-transform: uppercase;
+	/*color: #444;*/
+	letter-spacing: .4em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 3.3;
+	vertical-align: top;
+	color: ##C2738A;
+	text-align: center;
+	margin-left: -40px;
+}
+ul li{
+list-style-type: none;
+}
+
+#BG {
+	width: 768px;
+	height: 1024px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2f4454;
+	position: relative;	
+}
+#assignments_menu {
+	width: 362px;
+	height: 618px;
+	margin-top: 319px;
+	margin-left: 203px;
+	margin-right: 203px;
+	background-color: #2f4454;
+	border-style: solid;
+	border-color: #da7b93;
+	border-width: 2px;	
+	position: absolute;
+}
+.pinktriangleholder{
+	height: 433px;
+	width:285px;
+	margin-top: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	animation-name: pinkanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: pinkanim 2.0s 1;
+}
+@keyframes pinkanim {
+		0%   {left: 0px; top: -435px; opacity: 1;}
+		100%  {left: 0px; top: 0px; opacity: 1;}
+}
+.purple_topholder{
+	height: 119px;
+	width:132px;
+	margin-top: 0px;
+	position: absolute;
+	left: 308px;
+	top: 0px;
+	animation-name: purpleanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: purpleanim 2.0s 1;
+}
+@keyframes purpleanim {
+		0%   {left: 308px; top: -125px; opacity: 1;}
+		100%  {left: 308px; top: 0px; opacity: 1;}
+}
+.sm_lite_pinkholder{
+	height:99px;
+	width:61px;
+	margin-top: 0px;
+	position: absolute;
+	left: 440px;
+	top: 10px;
+	animation-name: sm_liteanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: sm_liteanim 2.0s 1;
+}
+@keyframes sm_liteanim {
+		0%   {left: 440px; top: -105px; opacity: 1;}
+		100%  {left: 440px; top: 10px; opacity: 1;}
+}
+.blue_top_rightholder{
+	height:397px;
+	width:171px;
+	margin-top: 0px;
+	position: absolute;
+	left: 597px;
+	top: 0px;
+	animation-name: blue_top_rightanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: blue_top_rightanim 2.0s 1;
+}
+@keyframes blue_top_rightanim {
+		0%   {left: 597px; top: -177px; opacity: 1;}
+		100%  {left: 597px; top: 0px; opacity: 1;}
+}
+.blue_above_menuholder{
+	height:184px;
+	width:79px;
+	margin-top: 0px;
+	position: absolute;
+	left: 216px;
+	top: 189px;
+	animation-name: blue_above_menuanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: blue_above_menuanim 2.0s 1;
+}
+@keyframes blue_above_menuanim {
+		0%   {left: 216px; top: -189px; opacity: 1;}
+		100%  {left: 216px; top: 189px; opacity: 1;}
+}
+.purple_leftholder{
+	height:161px;
+	width:123px;
+	margin-top: 0px;
+	position: absolute;
+	left: 0px;
+	top: 650px;
+	animation-name: purple_leftanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: purple_leftanim 2.0s 1;
+}
+@keyframes purple_leftanim {
+		0%   {left: 0px; top: 1000px; opacity: 0;}
+		100%  {left: 0px; top: 650px; opacity: 1;}
+}
+.blue_with_purpleholder{
+	height:196px;
+	width:81px;
+	margin-top: 0px;
+	position: absolute;
+	left: 21px;
+	top: 707px;
+	animation-name: blue_with_purpleanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: blue_with_purpleanim 2.0s 1;
+}
+@keyframes blue_with_purpleanim {
+		0%   {left: 21px; top: 1000px; opacity: 0;}
+		100%  {left: 21px; top: 707px; opacity: 1;}
+}
+.blue_next_menuholder{
+	height:182px;
+	width:64px;
+	margin-top: 0px;
+	position: absolute;
+	left: 525px;
+	top: 729px;
+	animation-name: blue_next_menuanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: blue_next_menuanim 2.0s 1;
+}
+@keyframes blue_next_menuanim {
+		0%   {left: 525px; top: 1000px; opacity: 0;}
+		100%  {left: 525px; top: 729px; opacity: 1;}
+}
+.pink_bottomholder{
+	height:207px;
+	width:141px;
+	margin-top: 0px;
+	position: absolute;
+	left: 627px;
+	top: 817px;
+	animation-name: pink_bottomanim;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: pink_bottomanim 2.0s 1;
+}
+@keyframes pink_bottomanim {
+		0%   {left: 627px; top: 1000px; opacity: 0;}
+		100%  {left: 627px; top: 817px; opacity: 1;}
+}
+
+/*#gradBG {
+	width: 700px;
+	height: 800px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(90deg, #FFF 0%, #777 25%, #444 45%, #444 55%, #777 75%, #FFF 100%);
+}*/
+
+/*cyanBG {
+	width: 540px;
+	height: 800px;
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	}*/
+
+.goBack {	
+	width: 30px;
+	height: 20px;
+	/*position: absolute;*/
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	left: 0px;
+	top: 0px;
+	opacity: .2;
+}
+
+/*#goBack {
+	opacity: 0;
+}*/
+
+.moonPos1 {
+	opacity: 1;
+	animation-name: spin_4;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	opacity: 1;
+	position: relative;
+	overflow: visible;
+	width: 114px;
+	height: 64px;
+	left: 99px;
+	top: 408px;
+}
+
+@keyframes spin_4 {
+from {
+    transform:rotate(0deg);
+	}
+to {
+    transform:rotate(360deg);
+	}
+	}
+
+.moonPos2 {
+	animation-name: move_2;
+		animation-direction: normal;
+		animation-delay: .5s;
+	animation: move_2 2.0s 1;
+	position: relative;
+	width: 114px;
+	height: 64px;
+		left: 99px;
+		top: 450px;
+}
+
+@keyframes move_2 {
+		0%   {left: -130px; top: 650px; opacity: 0;}
+		100%  {left: 99px; top: 450px; opacity: 1;}
+	
+	/*from {
+			left: -130px;
+			top: 650px;
+		}
+		to {
+			left: 99px;
+			top: 558px;
+		}*/
+}
+
+.menuItem {
+	width: 300px;
+	height: 370px;
+	position: relative;
+		left: 240px;
+		top: 240px;
+		border-style: solid;
+		border-color: #DD4;
+	/*margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;*/
+
+}
