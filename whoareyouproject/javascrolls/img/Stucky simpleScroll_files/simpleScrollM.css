@@ -1,0 +1,458 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    font-weight: normal;
+    font-style: normal;
+}
+a:link {color: #0000ff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    line-height: normal;
+    display: inline-block;
+ }
+
+a:hover { text-decoration: none; 
+	border-bottom: 1px solid #bd0020;
+	-webkit-transition: border-bottom .3s ease-in-out;
+-moz-transition: border-bottom .3s ease-in-out; -o-transition: border-bottom .3s ease-in-out;  
+}*/
+
+/*html{
+	background-color:black;
+	
+}*/
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --menu-speed: 0.75s;
+}
+body{
+	margin:0; /*gets rid of white space around body*/
+	width = auto;
+	height= auto;
+	color: black;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	text-transform: capitalize;
+  	position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
+.stickyHeader {
+  	width:100%;
+  	height:60px;
+	padding-top:25px;
+	position: sticky;    /*Here's what sticks it*/
+	top: 0;          /*to the bottom of the window*/
+	left:0;            /*and to the left of the window.*/
+	background-color: black;
+	color:white;
+	text-align: center;
+	font-size: 2em;
+	z-index: 8;
+}
+.Dwnstky{
+	width: 120px;
+	height: 2.2em;
+	position: absolute;    /*Here's what sticks it*/
+	top: -10px;
+	left: 400px;
+	cursor: pointer;
+	background-color: blue;
+	opacity: .3;
+	z-index: 10;
+}
+}
+.footer {
+	display: block;
+  	position: sticky;
+  	left: 40vw;
+	bottom: 40vh;
+	height: 300px;
+	width: 980px;
+	border-color: red;
+	border-width: 1px;
+	border-style: solid;
+	color: black;
+	text-align: center;
+	z-index: 4;
+
+}
+.footInner {
+	height: 260px;
+	width: 980px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: 10px;
+	text-align: left;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	font-size: 3em;
+	font-color: black;
+	text-transform: uppercase;
+}
+.Up{
+	width: 320px;
+	height: 50px;
+	margin-top: -266px;
+	margin-left: 10px;
+	cursor: pointer;
+	position: absolute;
+	background-color: lightblue;
+	opacity: .4;
+}
+.Dwn1{
+	width: 166px;
+	height: 50px;
+	margin-top: -210px;
+	margin-left: 396px;
+	cursor: pointer;
+	position: absolute;
+	background-color: white;
+	opacity: .4;
+}
+.Dwn2{
+	width: 302px;
+	height: 50px;
+	margin-top: -150px;
+	margin-left: 316px;
+	cursor: pointer;
+	position: absolute;
+	background-color: yellow;
+	opacity: .4;
+}
+.Dwn3{
+	width: 160px;
+	height: 50px;
+	margin-top: -92px;
+	margin-left: 5px;
+	cursor: pointer;
+	position: absolute;
+	background-color: red;
+	opacity: .4;
+}
+.Dwn4{
+	width: 310px;
+	height: 50px;
+	margin-top: -150px;
+	margin-left: 266px;
+	cursor: pointer;
+	position: absolute;
+	background-color: red;
+	opacity: .4;
+}
+
+.container{
+	margin:0px;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: -20px;
+	background: var(--overlay-color);
+	opacity: .8;
+	/*margin-top:20px;
+	background-color: antiquewhite;*/
+}
+.locOne{
+	width: 100%;
+	height: 100%;
+	background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;	
+	position: relative;
+	top: 20px;
+}
+
+.locOneimage{
+	height: 186px;
+	width: 310px;
+	top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	/*top: 20px;
+	left:200px;
+	cursor: pointer;*/
+	background-color: #00FBFF;
+	background-image: url(img/emotweb.png);
+	position: relative;
+	/*animation-name: locOneMove;
+	animation-direction: normal;
+	animation-delay: .5s;
+	animation: locOneMov 2.0s 1;*/
+}
+.container2{
+	margin:0px;
+	width: 100vw;
+	height: 100vh;
+	background: var(--overlay-color);
+	position: relative;
+	top: -20px;
+	/*background-color: antiquewhite;*/
+}
+.locTwo{
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	background: url('https://assets.imgix.net/hp/snowshoe.jpg') no-repeat center center/cover;
+}
+.container3{
+	margin:0px;
+	width: 100vw;
+	height: 100vh;
+	background: var(--overlay-color);
+	position: relative;
+	top: -40px;
+	/*background-color: antiquewhite;*/
+}
+.locThree{
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	background: url('https://www.britainexpress.com/zen/albums/potd/Brodgar-2174.jpg') no-repeat center center/cover;
+}
+.container4{
+	margin:0px;
+	width: 100vw;
+	height: 100vh;
+	background: var(--overlay-color);
+	background: url('img/brough.jpg') no-repeat center center/cover;
+	position: relative;
+	top: -60px;
+	/*background-color: antiquewhite;*/
+}
+.containerSmall{
+	width = auto;
+	height= 700px;
+	background-color: antiquewhite;
+	}
+
+.Upsvg{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	/*
+	margin-top: 20px;
+	background-color: seagreen;	*/
+}
+.Dwnstky2{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.Dwnstky3{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.Dwnstky4{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+#text{
+	width: 500px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: aquamarine;
+}
+
+
+
+}
+.locTwoimage{
+	height: 186px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-color: #00FBFF;
+	background-image: url(img/nighting.jpg);
+}
+
+.locTwoimage:hover{
+	background-color: aquamarine;	
+	background-	background-image: url(img/nighting.jpg);
+}
+
+.locThree{
+	margin-top: 20px;
+	background-image: url('https://www.britainexpress.com/zen/albums/potd/Brodgar-2174.jpg
+}
+.locThreeimage{
+	height: 186px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-color: #00FBFF;
+	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.locThreeimage:hover{
+	background-color: aquamarine;	background-	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.locFour{
+	margin-top: 3000px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+
+
+
+
+
+
+/*not used*/
+/*
+
+
+
+.down{}
+.hold{
+	width: 62px;
+	height: 20px;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	/*postition: absolute;
+	bottom: 40;*/
+}
+
+.titleScroll{
+	height: 186px;
+	width: 310px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.box1{
+	height: 186px;
+	width: 310px;
+	margin-top:700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(img/emotweb.png);
+}
+.box{
+	height: 186px;
+	width: 310px;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-image: url(img/nighting.jpg);
+}
+.intro{
+	margin-top:700px;
+	/*position:relative;*/
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}
+
+@keyframes locTwoMove {
+	0%   {margin-top: 550px;opacity: 0;}
+	100%  {	margin-top: 20px;; opacity: 1;}
+}
+
+*@keyframes locOneMove {
+	0%   {top: 300px opacity: 0;}
+	100%  {top: 20px opacity: 1;}
+
+
+.locOneimage:hover{
+	background-color: aquamarine;	
+	background-image: url(img/emotwebRoll.png);
+}
+*.scrollUp{
+	margin-top: 25px;
+	height: 100px;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(img/motowings.jpg);
+	cursor: pointer;
+	background-size: 100% 100px;
+}
+
+.scrollUp:hover{
+	background-image: url(img/motowingsRoll.jpg);
+	background-size: 100% 100px;
+}
+
+
+.storyTitle {
+	position: relative;
+	top: 10px;
+	font-size: 60pt;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+.chapterStory{
+	position:relative;
+	width:761px;
+	left:50%;
+	margin-left: -405px;
+	height: 800px;
+	margin-bottom: 120px;
+}
+.story{
+	position: relative;
+	top: 30px;
+	line-height: 16pt;
+	word-spacing: 2px;
+	letter-spacing: .5px;
+	height: 350px;
+	overflow-y:auto;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.chapter #title, .chapter #intro{
+	margin-top: 1902px;
+}
+
+.chapter #intro{
+	margin-top: 3804px;
+}
+.chapterStory .storyTitle{
+	margin-top:0;
+}
+
+.main{
+	float:left;
+	margin-right:30px;
+	font-size:220px;
+	
+}
+
+.main a{
+	text-decoration:none;
+	color:white;
+}
+
+.main a:hover{
+	color:#ff0000;
+}
+
+.main a:visited{
+	color:#151515;
+}
+*/
