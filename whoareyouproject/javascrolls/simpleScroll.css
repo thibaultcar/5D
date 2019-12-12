@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    font-weight: normal;
+    font-style: normal;
+}
+a:link {color: #0000ff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    line-height: normal;
+    display: inline-block;
+ }
+
+a:hover { text-decoration: none; 
+	border-bottom: 1px solid #bd0020;
+	-webkit-transition: border-bottom .3s ease-in-out;
+-moz-transition: border-bottom .3s ease-in-out; -o-transition: border-bottom .3s ease-in-out;  
+}*/
+
+/*html{
+	background-color:black;
+	
+}*/
+
+body{
+	margin:0; /*gets rid of white space around body*/
+	width = auto;
+	height= auto;
+	color: black;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	text-transform: capitalize;
+  	position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
+#sticky {
+  	width:100px;
+  	height:44px;
+	padding-top:2px;
+	position:fixed;    /*Here's what sticks it*/
+	bottom:0;          /*to the bottom of the window*/
+	left:0;            /*and to the left of the window.
+	background:black;
+	color:white;
+*/
+}
+.container{
+	width = auto;
+	height= 600px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top:20px;
+	background-color: antiquewhite;*/
+}
+.container2{
+	width = auto;
+	height= 600px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: antiquewhite;*/
+}
+.container3{
+	width = auto;
+	height= 600px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: antiquewhite;*/
+}
+.container4{
+	width = auto;
+	height= 600px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: antiquewhite;*/
+}
+.containerSmall{
+	width = auto;
+	height= 700px;
+	background-color: antiquewhite;
+	}
+.down{}
+.hold{
+	width: 62px;
+	height: 20px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	/*postition: absolute;
+	bottom: 40;*/
+}
+.Upsvg{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	/*
+	margin-top: 20px;
+	background-color: seagreen;	*/
+}
+.Dwnsvg{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.Dwnsvg2{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.Dwnsvg3{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.Dwnsvg4{
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+#text{
+	width: 500px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: aquamarine;
+}
+.titleScroll{
+	height: 186px;
+	width: 310px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.box1{
+	height: 186px;
+	width: 310px;
+	margin-top:700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(img/emotweb.png);
+}
+.box{
+	height: 186px;
+	width: 310px;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-image: url(img/nighting.jpg);
+}
+.intro{
+	margin-top:700px;
+	/*position:relative;*/
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}
+.locOne{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	min-height: 600px;
+	padding-top: 20px;
+	position: relative;
+}
+.locOneimage{
+	height: 186px;
+	width: 310px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-color: #00FBFF;
+	background-image: url(img/emotweb.png);
+}
+.locOneimage:hover{
+	background-color: aquamarine;	background-image: url(img/emotwebRoll.png);
+}
+.locTwo{
+	margin-top: 20px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	min-height: 600px;
+	padding-top: 20px;
+}
+.locTwoimage{
+	height: 186px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-color: #00FBFF;
+	background-image: url(img/nighting.jpg);
+}
+.locTwoimage:hover{
+	background-color: aquamarine;	background-	background-image: url(img/nighting.jpg);
+}
+.locThree{
+	margin-top: 20px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	min-height: 600px;
+	padding-top: 20px;
+}
+.locThreeimage{
+	height: 186px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background-color: #00FBFF;
+	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.locThreeimage:hover{
+	background-color: aquamarine;	background-	background-image: url(img/digipaint13.jpg);
+	background-size: 100% 100%;
+}
+.locFour{
+	margin-top: 20px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	min-height: 600px;
+	padding-top: 20px;
+}
+
+.scrollUp{
+	margin-top: 25px;
+	height: 100px;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(img/motowings.jpg);
+	cursor: pointer;
+	background-size: 100% 100px;
+}
+
+.scrollUp:hover{
+	background-image: url(img/motowingsRoll.jpg);
+	background-size: 100% 100px;
+}
+
+
+
+/*
+.storyTitle {
+	position: relative;
+	top: 10px;
+	font-size: 60pt;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+.chapterStory{
+	position:relative;
+	width:761px;
+	left:50%;
+	margin-left: -405px;
+	height: 800px;
+	margin-bottom: 120px;
+}
+.story{
+	position: relative;
+	top: 30px;
+	line-height: 16pt;
+	word-spacing: 2px;
+	letter-spacing: .5px;
+	height: 350px;
+	overflow-y:auto;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.chapter #title, .chapter #intro{
+	margin-top: 1902px;
+}
+
+.chapter #intro{
+	margin-top: 3804px;
+}
+.chapterStory .storyTitle{
+	margin-top:0;
+}
+
+.main{
+	float:left;
+	margin-right:30px;
+	font-size:220px;
+	
+}
+
+.main a{
+	text-decoration:none;
+	color:white;
+}
+
+.main a:hover{
+	color:#ff0000;
+}
+
+.main a:visited{
+	color:#151515;
+}
+*/
