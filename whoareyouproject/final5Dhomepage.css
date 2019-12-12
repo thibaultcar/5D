@@ -1,0 +1,173 @@
+@charset "utf-8";
+html, div, h1, h2, h3, h4, h5, h6, p{
+max-width: 1920px; /*height: 100%;*/
+} 
+
+body {
+	height: 100vh;  /*100vh*/
+	max-width: 1920px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: black;
+	display: flex;
+  	justify-content: center;
+}
+
+
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --menu-speed: 0.75s;
+}
+
+
+a{
+	display: block;
+	cursor: pointer;
+}
+
+a:link {
+		color: white;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
+
+
+.title {
+	font-family: helvetica;
+	color: white;
+	font-size: 40vw;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 50%
+	animation-name: titleanim;
+		animation-direction: normal;
+		animation-delay: 50000s;
+	animation: titleanim 10.0s 1;
+}
+
+.title2 {
+	font-family: helvetica;
+	color: white;
+	font-size: 1vw;
+	width: 100vw;
+	height: 50px;
+	position: relative;
+	text-align: center;
+	margin-top: 45vh;
+	margin-bottom: auto;
+	letter-spacing: .1em
+}
+@keyframes titleanim {
+		0%   {font-family: helvetica;
+	color: white;
+	font-size: 40vw;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 50%}
+		100%  {font-family: helvetica;
+	color: white;
+	font-size: 1vw;
+	width: 100vw;
+	height: 50px;
+	position: relative;
+	text-align: center;
+	margin-top: 45vh;
+	margin-bottom: auto;
+	letter-spacing: .1em}
+}
+
+
+
+
+.enter {
+	font-family: helvetica;
+	color: gray;
+	font-size: 13px;
+	width: 100vw;
+	height: auto;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: auto;
+	letter-spacing: .1em
+	opacity: 0;
+	animation-name: enteranim;
+		animation-direction: normal;
+		animation-delay: 50000s;
+	animation: enteranim 10.0s 1;
+}
+@keyframes enteranim {
+		0%   {opacity: 0;}
+		100%  {opacity: 1;}
+}
+
+
+
+
+
+
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-color: black;
+	cursor: pointer;
+}
+
+
+
+.typewriter h1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  height: 40px;
+  top: 500px;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
