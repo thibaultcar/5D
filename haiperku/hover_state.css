@@ -1,0 +1,406 @@
+@charset "utf-8";
+html, body, div, h1, h2, h3, h4, h5, h6, p{
+max-width: 1920px; 
+} 
+ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  /*{ display: block; } */
+
+body {
+	background-size: 1920px 1080px;
+	background-image: url("imageshaiku/tree_background.png");
+	background-repeat: no-repeat;
+	/*background-size: 1920px 1080px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-position: relative;*/
+}
+
+
+a{
+	display: block;
+	cursor: pointer;
+}
+
+a:link {
+		color: black;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
+
+/*.background {
+	width:1080px;
+	height:1920px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}*/
+
+/*.background {
+	width: 1920px;
+	height: 1080px;
+	margin-top: 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	}*/
+
+a.tooltipone {
+	position:relative;
+	width: 50px;
+	height: auto;
+	cursor: pointer;
+}
+
+.redline {
+	width: 158px;
+	height: 1090px;
+	position: absolute;
+	top: -8px;
+	left: 817px;
+	z-index: 3;
+	visibility: hidden;
+}
+
+
+/*.text {
+	width: 624px;
+	height: 300px;
+	top: 190px;
+  	left: 1228px;
+  	z-index: 1;
+  	text-align: right;
+  	position: absolute;
+  	text-align: right;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: blue;
+	visibility: visible;
+}*/
+
+.howareweto {
+	top: -100px;
+  	left: -144px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+
+.weare {
+	top: 0px;
+  	left: -164px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+
+.tobe {
+	width: 120px;
+	height: 50px;
+	top: 0px;
+  	left: 230px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+.beforeweare {
+	width: 310px;
+	height: 50px;
+	top: 100px;
+  	left: -58px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+
+.us {
+	top:100px;
+  	left: 261px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+
+.questionmark {
+	top: 100px;
+  	left: 315px;
+  	z-index: 1;
+  	text-align: left;
+  	position: absolute;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: visible;
+}
+
+.choose{
+    font-family: Helvetica;
+	color: black;
+	font-size: 50px; 
+	line-height: 50px;
+  	position: absolute;
+  	left: 1690px;
+  	top: 191px;
+  	cursor: pointer;
+  	z-index: 7;
+}
+
+.choose:hover + .redline {
+	visibility: visible;
+}
+
+
+
+.who{
+	font-family: Helvetica;
+	color: black;
+	font-size: 50px; 
+	line-height: 50px;
+  	position: absolute;
+  	left: 1241px;
+  	top: 290px;
+  	cursor: pointer;
+  	z-index: 7;
+}
+
+/*.transparentbox{
+	width: 105px;
+	height: 75px;
+	color: red;
+	right: 575px;
+  	top: 280px;
+  	z-index: 2;
+  	position: absolute;
+  	cursor: pointer;
+}*/
+
+.majors{
+	width: 1136px;
+	height: 1022px;
+	position: absolute;
+	top: -84px;
+	left: -64px;
+	visibility: hidden;
+	z-index: 3;
+}
+
+.who:hover + .majors {
+	visibility: visible;
+}
+
+.threedots{
+	position: absolute;
+	width: 70px;
+	height: 75px;
+	font-family: Helvetica;
+	color: black;
+	font-size: 50px; 
+	line-height: 50px;
+	top: 612px;
+	left: 1800px;
+	z-index: 2;
+}
+
+.supposed{
+	position: absolute;
+	top: 291px;
+	left: 1510px;
+	font-family: Helvetica;
+	color: black;
+	font-size: 50px; 
+	line-height: 50px;
+	z-index: 7;
+}
+
+.supposedtobe{
+	width: 624px;
+	height: 225px;
+	top: 291px;
+  	left: 1510px;
+  	z-index: 4;
+  	text-align: right;
+  	position: absolute;
+  	text-align: right;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+	visibility: hidden;
+}
+
+/*.supposed:hover .howareweto {
+	visibility: hidden;
+}
+
+.supposed:hover .weare {
+	visibility: hidden;
+}
+.supposed:hover .beforeweare {
+	visibility: hidden;
+}
+.supposed:hover .questionmark {
+	visibility: hidden;
+}*/
+
+
+
+/*PAGE 2*/
+
+
+.threedotspage2{
+	position: absolute;
+	width: 70px;
+	height: 75px;
+	font-family: Helvetica;
+	color: gray;
+	font-size: 50px; 
+	line-height: 50px;
+	top: 952px;
+	left: 54px;
+	z-index: 2;
+}
+
+.textpage2{
+	width: 705px;
+	height: 300px;
+	top: 490px;
+  	left: 1147px;
+  	z-index: 2;
+  	text-align: right;
+  	position: absolute;
+  	text-align: right;
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: gray;
+}
+
+.trapped{
+  	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: black;
+	position: absolute;
+	top: 490px;
+	left: 1389px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.trapped2 {
+	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: black;
+	position: absolute;
+	top: 490px;
+	left: 1389px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+
+/*.trapped:hover + .textpage2 {
+	visibility: hidden;
+}*/
+
+.obscures {
+	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: black;
+	position: absolute;
+	top: 590px;
+	left: 1408px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.fall{
+	font-family: Helvetica;
+	font-size: 50px; 
+	line-height: 50px;
+	color: black;
+	position: absolute;
+	top: 690px;
+	left: 1646px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.tornado_big_1 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	visibility: hidden;
+	}
+
+.obscures:hover + .tornado_big_1 {
+	visibility: visible;
+}
+
+.visionsfall{
+	width: 705px;
+	height: 501px;
+	position: absolute;
+	left: 1155px;
+	top: 670px;
+	visibility: hidden;
+	z-index: 2;
+}
+
+.fall:hover + .visionsfall {
+	visibility: visible;
+}
+
+
+
+
+
+
+
